@@ -1,0 +1,79 @@
+p {
+    color: #d31212
+}
+
+.lista {
+    border: 2px solid gray;
+    color: green;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style: decimal;
+    margin: 20px 0;
+    padding: 0;
+    max-width: 420px;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#foto {
+    width: 450px;
+    border: 6px solid #e0909a;
+    padding: 3px;
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: #8b6914;
+    margin-right: 30px;
+    border-bottom: 4px solid purple;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+    border-top: 4px solid green;
+    background-color: black;
+}
+
+#bt {
+    background-color: chartreuse;
+
+}
+
+#bt:hover {
+    background-color: fuchsia;
+}
+
+body {
+    background-color: hsl(0, 4%, 90%);
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    text-align: center
+}
+
+p {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    margin: 40px;
+    font-size: 1.5em;
+}

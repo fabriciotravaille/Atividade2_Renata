@@ -1,0 +1,29 @@
+    /* Estilizando a foto e alinhando */
+.foto {
+    width: 450px;
+    border: 3px #ed10ed;
+    border-style: dotted;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    /* alinhando a página p organizar */
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+    /* Alinhando o titulo no meio */
+h1,h2,h3 {
+    color: black;
+    text-align: center
+}
+    /* Estilizando o rodapé */
+footer {
+    color: black;
+    font-size: 3em;
+    background: grey;
+    text-align: center;
+}
